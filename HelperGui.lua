@@ -1,3 +1,5 @@
+--[[ ui recode by Fsploit, creds to nurysium llc!]]
+
 local nurysium = {}
 
 local tween_service = game:GetService("TweenService")

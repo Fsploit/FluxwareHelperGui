@@ -711,7 +711,7 @@ function nurysium:create_button(name, section_name, callback)
 
     Button.Name = name
     Button.Parent = ui.Background["functions_frame"]
-    Button.BackgroundColor3 = Color3.fromRGB(27, 24, 35)
+    Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Button.BorderSizePixel = 0
     Button.Position = UDim2.new(0.0428211577, 0, 0.0157480314, 0)
@@ -747,7 +747,7 @@ function nurysium:create_button(name, section_name, callback)
 
     Title.Name = "Title"
     Title.Parent = Button
-    Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Title.BackgroundColor3 = Color3.fromRGB(27, 24, 35)
     Title.BackgroundTransparency = 1.000
     Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Title.BorderSizePixel = 0

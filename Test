@@ -695,6 +695,8 @@ function nurysium: create_toggle(name: string, section_name: string, callback)
         end
     end)
 
+end
+
 function nurysium:create_button(name, section_name, callback)
     task.wait(0.15)
 

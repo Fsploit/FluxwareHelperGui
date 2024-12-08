@@ -711,7 +711,7 @@ function nurysium:create_button(name, section_name, callback)
 
     Button.Name = name
     Button.Parent = ui.Background["functions_frame"]
-    Button.BackgroundColor3 = Color3.fromRGB(37, 35, 48)
+    Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Button.BorderSizePixel = 0
     Button.Position = UDim2.new(0.0428211577, 0, 0.0157480314, 0)
@@ -722,7 +722,7 @@ function nurysium:create_button(name, section_name, callback)
     UICorner.Parent = Button
 
     UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-    UIStroke.Color = Color3.fromRGB(37, 35, 48)
+    UIStroke.Color = Color3.fromRGB(255, 255, 255)
     UIStroke.Thickness = 4
     UIStroke.Parent = Button
 
@@ -735,7 +735,7 @@ function nurysium:create_button(name, section_name, callback)
 
     Hitbox.Name = "Hitbox"
     Hitbox.Parent = Button
-    Hitbox.BackgroundColor3 = Color3.fromRGB(37, 35, 48)
+    Hitbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Hitbox.BackgroundTransparency = 1.000
     Hitbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Hitbox.BorderSizePixel = 0
@@ -773,7 +773,7 @@ function nurysium:create_button(name, section_name, callback)
     Hitbox.MouseButton1Click:Connect(function()
         callback()
     end)
-
 end
+
 
 return nurysium

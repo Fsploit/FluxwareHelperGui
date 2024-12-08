@@ -722,7 +722,7 @@ function nurysium:create_button(name, section_name, callback)
     UICorner.Parent = Button
 
     UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-    UIStroke.Color = Color3.fromRGB(255, 255, 255)
+    UIStroke.Color = Color3.fromRGB(37, 35, 48)
     UIStroke.Thickness = 4
     UIStroke.Parent = Button
 

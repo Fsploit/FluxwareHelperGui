@@ -735,7 +735,7 @@ function nurysium:create_button(name, section_name, callback)
 
     Hitbox.Name = "Hitbox"
     Hitbox.Parent = Button
-    Hitbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Hitbox.BackgroundColor3 = Color3.fromRGB(27, 24, 35)
     Hitbox.BackgroundTransparency = 1.000
     Hitbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Hitbox.BorderSizePixel = 0

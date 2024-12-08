@@ -524,7 +524,7 @@ function nurysium:create_toggle(name, section_name, callback)
     -- Main Frame
     Example.Name = name
     Example.Parent = ui.Background["functions_frame"]
-    Example.BackgroundColor3 = Color3.fromRGB(27, 24, 35) -- Background color updated
+    Example.BackgroundColor3 = Color3.fromRGB(37, 35, 48)
     Example.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Example.BorderSizePixel = 0
     Example.Position = UDim2.new(0.0428211577, 0, 0.0157480314, 0)
@@ -549,7 +549,7 @@ function nurysium:create_toggle(name, section_name, callback)
     -- Hitbox
     Hitbox.Name = "Hitbox"
     Hitbox.Parent = Example
-    Hitbox.BackgroundColor3 = Color3.fromRGB(27, 24, 35) -- Background color updated
+    Hitbox.BackgroundColor3 = Color3.fromRGB(37, 35, 48)
     Hitbox.BackgroundTransparency = 1.000
     Hitbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Hitbox.BorderSizePixel = 0
@@ -562,7 +562,7 @@ function nurysium:create_toggle(name, section_name, callback)
     -- Title
     Title.Name = "Title"
     Title.Parent = Example
-    Title.BackgroundColor3 = Color3.fromRGB(27, 24, 35) -- Background color updated
+    Title.BackgroundColor3 = Color3.fromRGB(37, 35, 48)
     Title.BackgroundTransparency = 1.000
     Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Title.BorderSizePixel = 0
@@ -579,7 +579,7 @@ function nurysium:create_toggle(name, section_name, callback)
     -- Toggle Frame
     Toggle.Name = "Toggle"
     Toggle.Parent = Example
-    Toggle.BackgroundColor3 = Color3.fromRGB(27, 24, 35) -- Background color updated
+    Toggle.BackgroundColor3 = Color3.fromRGB(37, 35, 48)
     Toggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Toggle.BorderSizePixel = 0
     Toggle.Position = UDim2.new(0.841, 0, 0.279, 0)
